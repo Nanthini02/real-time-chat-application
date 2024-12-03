@@ -1,0 +1,119 @@
+/* Global Styles */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif;
+  }
+  
+  header {
+    background-color: #007bff;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #71aae0;
+    background-image: url('real time bg.jpg');
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; }
+  
+  
+  .username-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+    margin-left: 20px;
+  }
+  
+  .username-container input {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 7px;
+  }
+  
+  .chat-window {
+    width: 500px;
+    height: 600px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(46, 45, 45, 0.1);
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+  }
+  
+  .chat-area {
+    flex-grow: 1;
+    padding: 20px;
+    background-image: url('pngtree-interior-design-3d-living-room-chat-room-reception-area-chinese-renderings-image_1347661.jpg');
+    background-color: #f4f1f1;
+    overflow-y: auto;
+  }
+  
+  .chat-messages {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .message {
+    background-color: #b3ceeb;
+    color: #100f0f;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 10px;
+    max-width: 70%;
+    word-wrap: break-word;
+  }
+  
+  .message.user {
+    background-color: #ffffff;
+    align-self: flex-end;
+  }
+  
+  .timestamp {
+    font-size: 0.8em;
+    color: #777171;
+  }
+  
+  .user-input {
+    display: flex;
+    padding: 20px;
+    background-color: #f3efef;
+    border-top: 1px solid hsl(0, 25%, 98%);
+  }
+  
+  #message-input {
+    flex-grow: 1;
+    padding: 10px;
+    border: 1px solid #616161;
+    border-radius: 4px;
+  }
+  
+  #send-button, #clear-button {
+    padding: 10px 20px;
+    margin-left: 10px;
+    background-color: #55b8f2;
+    border: none;
+    border-radius: 4px;
+    color: rgb(11, 4, 20);
+    cursor: pointer;
+  }
+  
+  #send-button:hover, #clear-button:hover {
+    background-color: #127ced;
+  }
+  
+  .typing-indicator {
+    margin-top: 10px;
+    color: #666;
+    font-size: 0.9em;
+  }
+  
